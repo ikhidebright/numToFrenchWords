@@ -1,5 +1,5 @@
 {
-  "name": "kata-number-to-french-converter",
+  "name": "num-to-fr",
   "version": "1.0.0",
   "description": "Numbers in French",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ikhidebright/numToFrenchWords.git"
   },
   "keywords": [
     "French",
@@ -27,5 +27,9 @@
     "typescript": "^4.0.3"
   },
   "author": "Bright Ikhide<brightikhide@gmail.com>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "repository": "git://github.com/ikhidebright/numToFrenchWords.git"
+  }
 }
